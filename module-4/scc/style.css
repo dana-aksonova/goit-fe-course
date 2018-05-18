@@ -46,7 +46,6 @@
 
 .card {
     width: 250px;
-    height: 322px;
     float: left;
     margin-right: 30px;
     margin-bottom: 20px;
@@ -65,11 +64,11 @@
 .img {
     height: 285px;
     width: 250px;
+    display:block;
     
 }
 
 .name {
-    height: 40px;
     width: 200px;
     background-color: #323232;
     color: #fff;
@@ -77,11 +76,11 @@
     text-align: center;
     line-height: 40px;
     text-transform: uppercase;
-    
-    
+    display: block;
+    margin:0;
+        
 }
 .pricw {
-    height: 40px;
     width: 50px;
     color: #fff;
     float: left;
@@ -89,11 +88,12 @@
     line-height: 40px;
     text-transform: uppercase;
     background-color: #8c8c8c;
+    margin:0;
     }
-.card:hover>.name {
+.card-info:hover>.name {
     background-color: #1ABC9C;
 }
-.card:hover>.pricw { 
+.card-info:hover>.pricw { 
     background-color:#7fd9c7;
 }
 .tittle {
