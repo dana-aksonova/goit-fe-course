@@ -1,0 +1,31 @@
+*{
+    margin:0;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    background-color: #fff;
+}
+.wrapper-baner {
+    background-image: url('../img/img1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner{
+    padding: 235px 0;
+    text-align: center;
+}
+.banner-title{
+    color: antiquewhite;
+    font-size: 0%;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: normal;
+    
+}
