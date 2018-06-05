@@ -172,11 +172,12 @@ padding: 20px 30px 20px 35px;
       position: absolute;
       top: 0;
       left: 0;
-      width:100%;
+      width:255px;
       height:280px;
       background-color:rgba(0, 0, 0, 0.5);
       display: inline-block;
-      display:block;
+      display:none;
+      border:10px solid rgba(255, 255, 255, 0.9);
       
       
       
@@ -187,6 +188,7 @@ padding: 20px 30px 20px 35px;
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
+    width: 165px;
     
     
     
@@ -200,11 +202,11 @@ padding: 20px 30px 20px 35px;
         display: inline-block;
         border: 1px solid #FFFFFF;
         padding: 10px;
-        margin-right: 5.5px;
+        margin-right: 5px;
         margin-bottom: 6px;
     }
 .fa-clock{
-    margin-right: -6px;   
+    margin-right: -5px;   
 } 
 .fa-cart-arrow-down{
     
