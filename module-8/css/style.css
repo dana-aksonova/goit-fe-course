@@ -43,7 +43,7 @@ input{
     text-align: center;
     padding:0.6rem 0.75rem ;	
     width: 6rem;
-    border: none
+    border: 0.125rem solid transparent;
     
 }
 
@@ -92,6 +92,7 @@ input:hover{
     margin-top: 2rem;
     border: none;
     padding: 0.87rem 2.8rem;
+    cursor:pointer;
 }
 .wrapper{
     text-align: center;
@@ -137,6 +138,7 @@ input:hover{
     font-size: 0.9rem;	
     font-weight: bold;
     color:  #FF4E50;	
+    cursor:pointer;
 }
 .foto-team{
     width: 7.625rem;
