@@ -1,0 +1,206 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 60rem;
+    min-width: 20rem;
+    margin:0 auto;
+}
+.row{
+    display:flex;
+    flex-flow: row wrap;
+}
+ .wrapper-banner{
+    background-image: url(../img/Vector.png);
+    position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 9rem;
+    background-color:rgba(0,0,0,1);
+   
+} 
+.header{
+    text-align: center; 
+}
+     
+form{
+    padding-top: 1.25rem;
+    padding-bottom: 3.5rem;
+}
+
+
+.logo{
+    text-transform:uppercase ;
+    text-decoration: none;
+    color: #FFFFFF;	
+    font-family: Montserrat, sans-serif;	
+    font-size: 1.25rem;	
+    font-weight: bold;	
+    
+    
+}
+input{
+    background-color: transparent;
+    color: #FFFFFF;	
+    font-family: Montserrat;	
+    font-size: 0.85rem;	
+    font-weight: bold;		
+    text-align: center;
+    padding:0.6rem 0.75rem ;	
+    width: 6rem;
+    border: none
+    
+}
+
+input:hover{
+    border: 0.125rem solid #FFFFFF;
+    border-radius: 2rem;
+}
+.header-button{
+    background-color: transparent;
+    color: #FFFFFF;	
+    font-family: Montserrat;	
+    font-size: 0.85rem;	
+    font-weight: bold;		
+    text-align: center;
+    padding:0.6rem 0.75rem ;	
+    width: 6rem;
+    border: none   
+}
+.header-button:hover{
+    border: 0.125rem solid #FFFFFF;
+    border-radius: 2rem;
+}
+.tittle{
+    color: #FFFFFF;	
+    font-family: Montserrat, sans-serif ;	
+    font-size: 2rem;	
+    font-weight: bold;		
+    margin-top: 2rem;
+    text-align: center;
+}
+.text{
+    color: #FFFFFF;	
+    font-family: Roboto, sans-serif;	
+    font-size: 1.2rem;	
+    font-weight: 300;		
+    text-align: center;
+    margin-top: 1.2rem;
+}
+.button{
+    color: #FFFFFF;	
+    font-family: Montserrat;	
+    font-size: 0.9rem;	
+    font-weight: bold;	
+    background-color: #FF4E50;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    border: none;
+    padding:  0.7rem 0rem;
+    width: 100%;
+    
+}
+
+.tittle-partner{
+    color: #333333;	
+    font-family: Montserrat;	
+    font-size: 1.4rem;	
+    font-weight: bold;	
+    text-align: center;
+}
+.card-team{
+    padding-top: 2rem;
+    text-align: center;
+    margin:auto;
+
+}
+.name{
+    color: #333333;	
+    font-family: Montserrat;	
+    font-size: 0.9rem;	
+    font-weight: bold;	
+    margin-top: 1.25rem;
+    margin-bottom: 1rem;
+}
+.info{
+    
+    color: #666666;	
+    font-family: Roboto;	
+    font-size: 0.9rem;	
+    font-weight: 300;
+}	
+
+
+.button-partner{
+    border: 2px solid #FF4E50;	
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+    margin-top: 2.2rem;
+    width: 100%;
+    font-family: Montserrat;	
+    font-size: 0.9rem;	
+    font-weight: bold;
+    color:  #FF4E50;	
+    cursor:pointer;
+    text-align: center;
+    padding:0.6rem 0.75rem ;
+    margin-bottom: 3.5rem
+} 
+.foto-team{
+    width: 7.625rem;
+    margin-bottom: 1.4375rem;
+    position: relative;
+    margin: auto;
+    margin-bottom: 1.4375rem;
+}
+.foto-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    border-radius: 1.25rem;
+    border: 0.25rem solid #fff;
+    padding-top: -0.5rem;
+    bottom: -0.3125rem;
+    right: 0rem;
+    
+} 
+ .tv{
+    background-color: #ff4e50; 
+    
+ }
+ .glass{
+     background-color: #FFA507;
+ }
+.cup{
+    background-color: #1CD7AD;
+
+}
+.flt{
+    background-color: #4E73DB;   
+}
+@media (min-width: 768px) {
+   
+    .logo{
+       padding-top: 2.8rem;
+    }
+    form{
+       padding-top: 2.8rem;
+    }
+    .tittle{
+       font-size: 3.25rem;
+    }
+    .text{
+        font-size: 1.5rem;
+    }        
+    .card-team{
+        padding-top: 2rem;
+}
+}
+.mt{
+    margin-top: 4.2rem;
+}
+.mb{
+    margin-bottom: 3.5rem
+}
