@@ -41,6 +41,10 @@ form{
     
     
 }
+.no-underline:hover {
+    text-decoration: none;
+    color: #FFFFFF; 
+  }
 input{
     background-color: transparent;
     color: #FFFFFF;	
@@ -50,8 +54,7 @@ input{
     text-align: center;
     padding:0.6rem 0.75rem ;	
     width: 6rem;
-    border: none
-    
+    border: 0.125rem solid transparent;
 }
 
 input:hover{
@@ -67,7 +70,7 @@ input:hover{
     text-align: center;
     padding:0.6rem 0.75rem ;	
     width: 6rem;
-    border: none   
+    border: 0.125rem solid transparent; 
 }
 .header-button:hover{
     border: 0.125rem solid #FFFFFF;
@@ -114,8 +117,9 @@ input:hover{
     padding-top: 2rem;
     text-align: center;
     margin:auto;
-
+    
 }
+
 .name{
     color: #333333;	
     font-family: Montserrat;	
@@ -148,6 +152,9 @@ input:hover{
     padding:0.6rem 0.75rem ;
     margin-bottom: 3.5rem
 } 
+.flex{
+    flex-basis: 15rem;
+}
 .foto-team{
     width: 7.625rem;
     margin-bottom: 1.4375rem;
@@ -197,6 +204,7 @@ input:hover{
     .card-team{
         padding-top: 2rem;
 }
+ 
 }
 .mt{
     margin-top: 4.2rem;
