@@ -1,2 +1,252 @@
 
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 
+}
+@import "..css/normilize.css";
+
+.banner{
+    background-image: url('../img/Layer\ 15.png');
+    position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.banner--shadow{
+       background-image: linear-gradient( to bottom, rgba(243, 129, 129,0.9),rgba(252, 227, 138,0.9));
+   
+}
+.container{
+    width: 75rem;
+    margin: 0 auto;
+}
+.banner__header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 1.75rem;
+}
+.banner__nav,.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+   
+}
+
+.menu__item{
+    list-style: none; 
+    margin-right: 3.5rem;
+    color: #FFFFFF;	
+    font-family: Montserrat;	
+    font-size: 14px;
+    position: relative;
+}
+
+.menu__item:hover::after{
+    
+    content: "";
+    height: 0.2rem;
+    width: 100%;
+    background-color: #FCE38A;
+    margin-top: 0.75rem;
+    display:block;
+    position: absolute;   
+}
+.menu__item:hover{
+    color: #FCE38A;  
+}
+.menu__shoping{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 2rem;
+}
+input{
+    width: 1rem;   
+    border: solid transparent;
+  
+    z-index: 2;
+}
+.menu__search{
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+}
+.search__icon{
+    position: absolute;
+    z-index: 1;
+    color: rgb(151, 21, 21);
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.banner__logo{
+    color: #FFFFFF;	
+    font-family: Montserrat;	
+    font-size: 2rem;	
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.banner__title__container{
+    text-align: center;
+    margin-top:10rem;
+}
+.banner__title--small{
+    color: #FFFFFF;	
+    font-family: Kaushan Script;	
+    font-size: 4rem;
+    margin:auto;
+}
+.banner__title--big{
+    color: #FFFFFF;	
+    font-family: Montserrat;	
+    font-size: 9.3rem;	
+    font-weight: bold;	
+    line-height: 140px;
+    margin-top:4rem;
+}
+.banner__button{
+    margin-top: 7.75rem;
+    border: 3px solid #FFFFFF;	
+    background-color: transparent;
+    color: #FFFFFF;	
+    font-family: Montserrat;	
+    font-size: 0.875rem;
+    padding: 0.85rem 1.85rem;
+    margin-bottom: 14.25rem;
+    cursor:pointer;
+}
+
+.service{
+    padding-top: 2.8rem;
+    text-align: center;
+}
+.ts{
+    color: #333333;	
+    font-family: Kaushan Script;	
+    font-size: 1.5rem;
+}
+.tb{
+    color: #333333;	
+    font-family: Montserrat;	
+    font-size: 1.875rem;	
+    font-weight: bold;
+    margin-top: 1.375rem;
+    
+}
+.tb:after{
+    content: "";
+    height: 0.2rem;
+    width: 3.75rem;
+    background-color:#F38181;
+    margin: 2.6rem 35rem 0 35rem;
+    display:block;
+    
+    
+}
+.article__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    justify-content:flex-start ; 
+    justify-content:space-between;
+    margin-top: 4rem;
+}
+.article{
+    display: flex;
+    justify-content:space-between;
+   width: 24rem;
+   margin-bottom: 6.25rem;
+   width: 22rem;
+   text-align: start;
+}
+
+.article__img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.75rem;
+}
+.name{
+    color: #333333;	
+    font-family: Montserrat;	
+    font-size: 0.875rem;
+}
+.text{
+    color: #999999;	
+    font-family: Roboto;	
+    font-size: 0.9rem;
+}
+.article__text{
+    margin-top: 1.25rem;
+}
+.team{
+    text-align: center;
+}
+.team__text {
+    margin:2.5rem 6.8rem 0 6.8rem;
+}
+.card__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-top:5.8rem;
+}  
+.team__name{
+    margin-top:2rem;
+
+}
+.team__position{
+    margin-top:1rem;
+    color: #999999;	
+    font-family: Roboto;	
+    font-size: 0.9rem;	
+    font-style: italic;	
+    font-weight: 300;
+}
+.card{
+    position: relative;
+}
+.card--hover{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 470px;
+    background-image:linear-gradient(to bottom, rgba(234, 138, 137, 0.9), rgba(242, 226, 145, 0.9));
+    top: 0;
+    left: 0;
+    box-shadow: 9px 9px #95e1d3;
+}
+.card--hover:hover{
+    display: block;
+} 
+.card__icon--hover{
+    width: 220px;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content:center;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+}
+.Team__icon--hover{
+    width: 3rem;
+    height: 3rem;
+}
+.card__icon{
+    
+}
+
+
+@media(min-resolution:288dpi){
+    .banner{
+        background-image: url('../img/Layer\ 15@2x.png');  
+    }  
+}

@@ -5,30 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="banner">
-        <div class="container">
-            <header class="banner__header">
-                <a href="" class="banner__logo">MoGo</a>
-                <nav class="banner__nav">
-                    <ul class="menu">
-                       <li class="menu__item">about</li>
-                        <li class="menu__item">service</li>
-                        <li class="menu__item">work</li>
-                        <li class="menu__item">blog</li>
-                    </ul>
-                    <a href="#" class="menu__bascket"></a>
-                    <form action="search" class="menu__search">
-                        <input type="search" name="text " background: url()>
-                    </form>
-                </nav>    
-            </header>
-            <h2 class="banner__title banner__title--small"Creative Template></h2>
-            <h1 class="banner__title banner__title--big">Welcome
-                    to MoGo</h1>
-            <button class="banner-button">Learn more</button>
+        <div class="banner--shadow">
+            <div class="container">
+                <header class="banner__header">
+                   <a href="" class="banner__logo">MoGo</a>
+                   <nav class="banner__nav">
+                       <ul class="menu">
+                          <li class="menu__item">about</li>
+                          <li class="menu__item">service</li>
+                          <li class="menu__item">work</li>
+                          <li class="menu__item">blog</li>
+                        </ul>
+                        <a href="#" class="menu__shoping">
+                          <img src="img/SHOPPING-CART.svg" alt="shoping-cart">
+                        </a>
+                       <div class="menu__search">
+                           <span class="search__icon"><i class="fa fa-search"></i></span> 
+                          
+                       </div>
+                    </nav>    
+                </header>
+                <div class="banner__title__container">
+                  <h2 class="banner__title banner__title--small">Creative Template</h2>
+                  <h1 class="banner__title banner__title--big">Welcome
+                    <br>to MoGo</h1>
+                  <button class="banner__button">Learn more</button>
+                </div>  
+            </div>
         </div>
     </div>
     <div class="service">
@@ -82,42 +91,85 @@
         </div>
     </div>
     <div class="team">
-      <h3 class="team__title--small ts"></h3>  
-      <h4 class="team__title--big tb"></h4>
-      <p class="team__text text"></p>
-      <div class="card-container">
-          <div class="card">
-              <img src="" alt="" class="team__img">
-              <h5 class="team__name name"></h5>
-              <p class="team__text text"></p>
-              <div class="card--hover">
-                  <svg class="Team__icon--hover"  >
-                     <use href="img/symbol-defs.svg#icon-pinterest"></use>
-                  </svg>
-                  <img class="team__icon--hover" src="" alt="">
-                  <img class="team__icon--hover" src="" alt="">
-                  <img class="team__icon--hover" src="" alt="">
-              </div>
-          </div>
-          <div class="card">
-                <img src="" alt="" class="team__img">
-                <h5 class="team__name name"></h5>
-                <p class="team__text text"></p>
-                <div class="card--hover">
-                    <img class="team__icon--hover" src="" alt="">
-                    <img class="team__icon--hover" src="" alt="">
-                    <img class="team__icon--hover" src="" alt="">
-                    <img class="team__icon--hover" src="" alt="">
+      <div class="container">
+            <h3 class="team__title--small ts">Who we are</h3>  
+            <h4 class="team__title--big tb">Meet our team</h4>
+            <p class="team__text text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta tempora perferendis impedit at consectetur ipsam doloribus minus voluptate reiciendis, quia accusantium iste architecto repellendus est ab incidunt consequuntur itaque.</p>
+            <div class="card__container">
+                <div class="card">
+                    <picture class="card__img">
+                        <source srcset="img/img1.png , img/img1@2x.png  2x">
+                        <img alt="foto1" srcset="img/img1.png , img/img1@2x.png 2x">
+                    </picture>
+                    <h5 class="team__name name">Matthew Dix</h5>
+                    <p class="team__position ">Graphic Design</p>
+                    <div class="card--hover"> 
+                        <div class="card__icon--hover">
+                            <svg class="card__icon">
+                                <use href="img/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                            <svg class="Team__icon--hover">
+                                <use href="img/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                            <svg class="Team__icon--hover">
+                                <use href="img/symbol-defs.svg#icon-pinterest"></use>
+                            </svg>
+                            <svg class="Team__icon--hover">
+                                <use href="img/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </div>
+                                      
+                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="" alt="" class="team__img">
-                <h5 class="team__name name"></h5>
-                <p class="team__text text"></p>
-                <img class="team__icon--hover" src="" alt="">
-                    <img class="team__icon--hover" src="" alt="">
-                    <img class="team__icon--hover" src="" alt="">
-                <img class="team__icon--hover" src="" alt="">
+                <div class="card">
+                    <picture>
+                        <source srcset="img/img2.png , img/img2@2x.png  2x">
+                        <img alt="foto2" srcset="img/img2.png , img/img2@2x.png 2x">
+                    </picture>
+                    <h5 class="team__name name">Christopher Campbell</h5>
+                    <p class="team__position ">Branding/UX design</p>
+                    <div class="card--hover">
+                        <div class="card__icon--hover">
+                            <svg class="card__icon">
+                                <use href="img/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                            <svg class="Team__icon--hover">
+                                <use href="img/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                            <svg class="Team__icon--hover">
+                                <use href="img/symbol-defs.svg#icon-pinterest"></use>
+                            </svg>
+                            <svg class="Team__icon--hover">
+                                <use href="img/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <picture>
+                        <source srcset="img/img3.png , img/img3@2x.png  2x">
+                        <img alt="foto3" srcset="img/img3.png , img/img3@2x.png 2x">
+                    </picture>
+                    <h5 class="team__name name">Michael Fertig </h5>
+                    <p class="team__position ">Developer</p>
+                    <div class="card--hover">
+                        <div class="card__icon--hover">
+                            <svg class="card__icon">
+                                <use href="img/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                            <svg class="Team__icon--hover">
+                                <use href="img/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                            <svg class="Team__icon--hover">
+                                <use href="img/symbol-defs.svg#icon-pinterest"></use>
+                            </svg>
+                            <svg class="Team__icon--hover">
+                                <use href="img/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
       </div>
     </div>
