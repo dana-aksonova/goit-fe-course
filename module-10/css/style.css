@@ -79,7 +79,7 @@ input{
 .search__icon{
     position: absolute;
     z-index: 1;
-    color: rgb(151, 21, 21);
+    color: #fff;
     width: 1rem;
     height: 1rem;
 }
@@ -223,7 +223,7 @@ input{
     left: 0;
     box-shadow: 9px 9px #95e1d3;
 }
-.card--hover:hover{
+.card:hover>.card--hover{
     display: block;
 } 
 .card__icon--hover{
