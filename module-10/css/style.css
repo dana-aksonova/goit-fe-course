@@ -242,14 +242,73 @@ input{
     border:#F38181 solid 0.05rem;
 }
 .icon{
-    color:#F38181;
+    Fill:#F38181;
+    width: 2rem;
+    height: 2rem;
     
 }
 .Team__icon--hover:hover>.card{
-    color:#fff;
+    fill:#fff;
     background-color:#F38181;
 }
+.footer__container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+.footer__container::before{
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color:  #E5E5E5;
 
+}
+.footer__form{
+    margin:10px 0 12px 0;
+}
+
+.form__text { 
+    
+    height: 38px;
+    width: 380px;
+ }
+  
+.form__submit {
+    
+    height: 38px;
+    width: 150px;
+    background-color: #95e1d3;
+    text-decoration: none;
+    outline:  none;
+    border:0;
+    color: #FFFFFF;	
+    font-family: Montserrat;	
+    font-size: 14px;	
+    font-weight: bold;
+   
+  }
+.form__submit:hover {
+        cursor: pointer;
+  }
+  .contact{
+      margin-top: 25px;
+      color: #333333;	
+      font-family: Montserrat;	
+      font-size: 14px;
+  }
+  .fotter__text{
+    color: #333333;	
+    font-family: Montserrat;	
+    font-size: 14px;
+  }
+  .fotter__text--pink{
+    color: #F38181;
+    font-family: Montserrat;	
+    font-size: 14px;
+    cursor:pointer;
+  }
 
 @media(min-resolution:288dpi){
     .banner{
